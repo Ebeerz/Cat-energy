@@ -1,0 +1,25 @@
+.catalog-additional__heading {
+  font-family: $font-heading;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.catalog-additional__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-additional__title {
+  font-family: $font-heading;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.catalog-additional__description {
+  font-size: 14px;
+  line-height: 14px;
+  color: $color-special_dark-grey;
+}

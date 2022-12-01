@@ -1,2 +1,24 @@
-@import "global/normalize";
 @import "global/mixins.css";
+@import "global/variables.scss";
+@import "global/fonts.scss";
+@import "global/normalize";
+
+@import "blocks/visually-hidden.scss";
+@import "blocks/button.scss";
+@import "blocks/page.scss";
+@import "blocks/page-main.scss";
+@import "blocks/site-menu.scss";
+@import "blocks/promo.scss";
+@import "blocks/catalog.scss";
+@import "blocks/card.scss";
+@import "blocks/form.scss";
+@import "blocks/field-group.scss";
+@import "blocks/show-more.scss";
+@import "blocks/catalog-additional.scss";
+@import "blocks/catalog-variety.scss";
+@import "blocks/explanation.scss";
+@import "blocks/example.scss";
+@import "blocks/switcher.scss";
+@import "blocks/partnership.scss";
+@import "blocks/social-media.scss";
+@import "blocks/developer.scss";

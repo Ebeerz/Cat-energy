@@ -1,0 +1,15 @@
+.form {
+  font-family: $font-heading;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $color-special_dark-grey;
+}
+
+.form__necessary {
+  font-family: $font-body;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: none;
+  color: $color-black;
+}
