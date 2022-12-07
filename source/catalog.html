@@ -2,16 +2,17 @@
 <html class="page" lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cat energy: Каталог</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page__body">
-  <header class="page-header">
-    <nav class="main-nav wrapper">
-      <a class="main-nav__logo">
-        <img src="img/logos_icons/logo-img.svg" width="34" height="38" alt="Логотип Cat Energy">
-        <img src="img/logos_icons/logo-sign.svg" width="101" height="18" alt="" aria-hidden="true">
-      </a>
+  <header class="page__header page-header">
+    <a class="page-header__logo header-logo">
+      <img class=header-logo__img src="img/logos_icons/logo-img.svg" width="34" height="38" alt="Логотип Cat Energy">
+      <img class=header-logo__sign src="img/logos_icons/logo-sign.svg" width="101" height="18" alt="" aria-hidden="true">
+    </a>
+    <nav class="page-header__main-nav main-nav wrapper">
       <button class="main-nav__button">
         <span class="visually-hidden">
           Открыть меню
@@ -19,11 +20,11 @@
       </button>
 
       <ul class="main-nav__menu site-menu">
-        <li class="site-menu__item">
-          <a href="index.html" class="site-menu__link">Главная</a>
-        </li>
         <li class="site-menu__item site-menu__item--current">
-          <a class="site-menu__link">Каталог продукции</a>
+          <a class="site-menu__link">Главная</a>
+        </li>
+        <li class="site-menu__item">
+          <a href="catalog.html" class="site-menu__link">Каталог продукции</a>
         </li>
         <li class="site-menu__item">
           <a href="form.html" class="site-menu__link">Подбор программы</a>

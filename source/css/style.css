@@ -389,6 +389,11 @@ template {
   text-transform: uppercase;
 }
 
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .site-menu {
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 20px;
